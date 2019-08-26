@@ -1,27 +1,39 @@
 .initial {
-    filter: grayscale(0.20);
+  filter: grayscale(0.2);
 }
-        
+
 .title {
-    color: white !important;
-    font-size: 58px !important;    
-    text-transform: uppercase;
-    text-align: right;
+  color: white !important;
+  font-size: 58px !important;
+  text-transform: uppercase;
+  text-align: right;
 }
 
 .sub-title {
-    color: white !important;
-    font-size: 88px !important;
-    text-transform: uppercase;
-    text-align: right;
+  color: white !important;
+  font-size: 88px !important;
+  text-transform: uppercase;
+  text-align: right;
 }
 
 .speaker-name {
-    text-align: right;
-    color: white;
-    font-size: 28px;
+  text-align: right;
+  color: white;
+  font-size: 28px;
+}
+
+.presentation-slide {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.presentation-info-container {
+  text-align: left;
 }
 
 .vini-image {
-    
+  border: 12px black solid !important;
+  margin-right: 20px !important;
 }

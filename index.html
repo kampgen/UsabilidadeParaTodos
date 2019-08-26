@@ -1,68 +1,82 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-        <link rel="stylesheet" href="css/custom.css">
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/white.css">
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/white.css" />
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css" />
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-                <section class="initial" data-background-image="./images/background-people.png">
-                    <!-- <h1 class="title">Usabilidade para</h1>
-                    <h1 class="sub-title">todos</h1>
-                    <p class="speaker-name">Vinícius Kämpgen</p>
-                    <img src="./images/rbs-logo.png" class="logo"> -->
-                </section>
-				<section>
-                    <img class="vini-image" src="./images/vini.png"/>
-                    Apresentação
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? "css/print/pdf.css"
+        : "css/print/paper.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- <section
+          class="initial"
+          data-background-image="./images/background-people.png"
+        ></section> -->
+        <section>
+          <div class="presentation-slide">
+            <!-- <img class="vini-image" width="300px" src="./images/vini.png" /> -->
+            <div class="presentation-info-container">
+              <p>Desenvolvedor Front-End</p>
+              <p>Designer de interfaces</p>
+              <p>Teste</p>
+              <p>Teste</p>
+            </div>
+          </div>
+        </section>
+        <section>O que iremos ver</section>
+        <section>Tela sem UX -> tela com UX</section>
+        <section>Design + Código + teste = pessoas</section>
+        <section>pessoas > código</section>
+        <section>O que é usabilidade</section>
+      </div>
+    </div>
 
-                </section>
-				<section>O que iremos ver</section>
-				<section>Tela sem UX -> tela com UX</section>
-				<section>Design + Código + teste = pessoas</section>
-				<section>pessoas > código</section>
-				<section>O que é usabilidade</section>
-			</div>
-		</div>
+    <script src="js/reveal.js"></script>
 
-        <script src="js/reveal.js"></script>
-        
-        <style>
-            .reveal section img { background:none; border:none; box-shadow:none; }
-        </style>
+    <style>
+      .reveal section img {
+        background: none;
+        border: none;
+        box-shadow: none;
+      }
+    </style>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
-			});
-		</script>
-	</body>
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        maxScale: 1.2,
+        dependencies: [
+          { src: "plugin/markdown/marked.js" },
+          { src: "plugin/markdown/markdown.js" },
+          { src: "plugin/notes/notes.js", async: true },
+          { src: "plugin/highlight/highlight.js", async: true }
+        ]
+      });
+    </script>
+  </body>
 </html>
