@@ -6,9 +6,10 @@
 
 		<title>reveal.js</title>
 
+        <link rel="stylesheet" href="css/custom.css">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/white.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
@@ -25,12 +26,30 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+                <section class="initial" data-background-image="./images/background-people.png">
+                    <!-- <h1 class="title">Usabilidade para</h1>
+                    <h1 class="sub-title">todos</h1>
+                    <p class="speaker-name">Vinícius Kämpgen</p>
+                    <img src="./images/rbs-logo.png" class="logo"> -->
+                </section>
+				<section>
+                    <img class="vini-image" src="./images/vini.png"/>
+                    Apresentação
+
+                </section>
+				<section>O que iremos ver</section>
+				<section>Tela sem UX -> tela com UX</section>
+				<section>Design + Código + teste = pessoas</section>
+				<section>pessoas > código</section>
+				<section>O que é usabilidade</section>
 			</div>
 		</div>
 
-		<script src="js/reveal.js"></script>
+        <script src="js/reveal.js"></script>
+        
+        <style>
+            .reveal section img { background:none; border:none; box-shadow:none; }
+        </style>
 
 		<script>
 			// More info about config & dependencies:

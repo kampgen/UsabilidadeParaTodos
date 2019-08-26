@@ -1,0 +1,27 @@
+.initial {
+    filter: grayscale(0.20);
+}
+        
+.title {
+    color: white !important;
+    font-size: 58px !important;    
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.sub-title {
+    color: white !important;
+    font-size: 88px !important;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.speaker-name {
+    text-align: right;
+    color: white;
+    font-size: 28px;
+}
+
+.vini-image {
+    
+}
