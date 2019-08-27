@@ -57,6 +57,12 @@
   flex-direction: row;
 }
 
+.structure-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .structure-container .divider {
   margin-left: 20px !important;
   margin-right: 20px !important;
@@ -74,6 +80,18 @@
   /* justify-content: space-around; */
 }
 
+.heuristics-container div:nth-child(1) {
+  margin-right: 50px !important;
+}
+
+.heuristics-container div:nth-child(2) {
+  margin-left: 50px !important;
+}
+
 .heuristics-container p {
   font-size: 24px !important;
+}
+
+.heuristics-subcontainer {
+  width: 50vw;
 }
