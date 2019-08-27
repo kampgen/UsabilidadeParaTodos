@@ -43,6 +43,13 @@
   margin-right: 50px !important;
 }
 
+.icon {
+  height: 28px;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-right: 10px !important;
+}
+
 .structure-container {
   display: flex;
   justify-content: center;
@@ -56,5 +63,17 @@
 }
 
 .structure-container p {
-  font-size: 20px;
+  font-size: 28px !important;
+}
+
+.heuristics-container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  text-align: left;
+  /* justify-content: space-around; */
+}
+
+.heuristics-container p {
+  font-size: 24px !important;
 }
