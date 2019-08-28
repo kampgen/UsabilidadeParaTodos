@@ -72,12 +72,21 @@
   font-size: 28px !important;
 }
 
+.ux-topics-container {
+  height: auto;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.ux-topics-container p {
+  height: auto;
+}
+
 .heuristics-container {
   display: flex;
   flex: 1;
   flex-direction: row;
   text-align: left;
-  /* justify-content: space-around; */
 }
 
 .heuristics-container div:nth-child(1) {
